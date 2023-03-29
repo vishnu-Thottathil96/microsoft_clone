@@ -1,0 +1,343 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    padding: 0;
+    font-size: 0.9rem;
+    text-align: center;
+
+}
+
+.nav-item {
+    margin: 0em 0.3em;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.navimg {
+    width: 108px;
+    /* height: 10%; */
+}
+#user{
+    height: 1.7rem;
+    width: 1.7rem;
+    padding-left: 6px;
+}
+
+.head {
+    padding: 0% 11%;
+    background-color: #fff;
+}
+
+.head-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first ul {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first ul li {
+    cursor: pointer;
+    font-size: 0.83rem;
+    padding: 0em 0.6em;
+}
+
+.second ul {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second ul li {
+    font-size: 0.83rem;
+    cursor: pointer;
+    padding: 0em 0.6em;
+}
+
+.second ul li:hover {
+    text-decoration: underline;
+}
+
+.first ul li:hover {
+    text-decoration: underline;
+}
+
+.head-i {
+    padding-left: 4px;
+}
+
+li {
+    list-style: none;
+}
+
+.carsoule-image {
+    position: relative;
+    max-height: 610px;
+}
+
+.carsoule-item {
+    width: 28%;
+    position: absolute;
+    top: 32%;
+    left: 62%;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 2;
+}
+
+#carsoule-item-right {
+    position: absolute;
+    top: 28%;
+    left: 12%;
+}
+
+.item-first {
+    margin-bottom: 0.5rem;
+    background-color: #ffb900;
+    width: min-content;
+    padding: 0.22em 0.7em;
+}
+
+.item-second {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.item-third {
+    font-weight: 390;
+    font-size: 1.025rem;
+    margin: 1rem 0px;
+    margin-bottom: 1.5rem;
+}
+
+.carsoule-button {
+    background-color: #0067b8;
+    border-radius: 0%;
+}
+
+/* #features {
+    margin: 3em 16em;
+} */
+
+.d-flex {
+    padding: 2.5% 18%;
+    margin: 0% 8%;
+}
+
+.third-img {
+    padding: 7.5%;
+}
+
+.third-div {
+    text-align: center;
+}
+
+.third-div h6 a {
+    color: #0067b8;
+}
+
+.feat {
+    margin: auto;
+    padding: 0%;
+}
+
+
+.tio-row {
+    padding: 3.3% 0%;
+    padding-bottom: 2%;
+}
+
+.tio-card {
+    cursor: pointer;
+
+}
+
+.tio {
+    padding: 1% 9%;
+}
+
+.tio-txt {
+    padding: 11% 0%;
+}
+
+.tio-des {
+    font-weight: 380;
+    font-size: 1.002rem;
+    padding: 2.9% 0%;
+
+}
+
+.tio-txt-foot a {
+    color: #0067b8;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 4px;
+    transition: all 0.3s ease;
+}
+
+.tio-txt-foot a:hover {
+    text-decoration: underline;
+    padding-right: 7px;
+}
+
+.tio-txt-foot {
+    display: flex;
+    align-items: center;
+}
+
+.tio-i {
+
+    color: #0067b8;
+    height: 19px;
+}
+#xbox{
+    margin-left: 600px;
+}
+.mse {
+    position: relative;
+    width: -webkit-fill-available;
+    padding-bottom: 2%;
+}
+
+.mse-txt {
+    position: absolute;
+    max-width: 422px;
+    top: 27%;
+    left: 5%;
+    padding: 1rem 2.5rem;
+    background-color: #fff;
+}
+
+#for-buisness {
+    margin-bottom: 1.5%;
+}
+
+
+.social ul {
+    /* list-style: none; */
+    padding: 0%;
+    margin: 0px;
+}
+
+#li {
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.social ul li {
+    /* list-style: none; */
+    padding: 1% 1rem;
+    font-weight: 450;
+}
+
+
+
+.container-fluid {
+    background-color: #f2f2f2;
+}
+
+/* footer */
+.foot-row {
+    padding: 2.5% 7%;
+    padding-bottom: 0.5em;
+}
+
+.foot-card {
+    padding: 1% 1%;
+}
+
+.foot-list {
+    padding: 1.1em 0px;
+    cursor: pointer;
+    color: #616161;
+    font-size: 0.7rem;
+}
+
+.foot-list:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.foot-head {
+    color: #616161;
+    font-weight: 500;
+}
+
+#foot-foot {
+    float: right;
+}
+
+#foot-foot ul {
+    display: flex;
+}
+
+#foot-foot ul li {
+    padding: 0 1em;
+}
+
+#cc {
+    text-decoration: none;
+    cursor: text;
+}
+
+#cc:hover {
+
+    color: #616161;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#english ul {
+    display: flex;
+    align-items: center;
+    width: 201px;
+}
+
+#english ul li .i {
+    height: 22px;
+}
+
+#english ul li {
+    padding: 0% 2%;
+}
+
+#foot-english:hover {
+    color: #616161;
+
+}
+
+@media (max-width:1450px) {
+    .mse-txt {
+        padding-left: 5%;
+        position: relative;
+        max-width: none;
+        margin: auto;
+        left: 0%;
+    }
+
+    .mse-mse {
+        padding: 4% 0%;
+    }
+
+}
